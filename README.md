@@ -54,10 +54,16 @@ API Endpoints
 
 List of available API endpoints and their descriptions.
 
-*   `GET /api/endpoint`: Description of what this endpoint does.
-*   `POST /api/endpoint`: Description of what this endpoint does.
-*   `PUT /api/endpoint`: Description of what this endpoint does.
-*   `DELETE /api/endpoint`: Description of what this endpoint does.
+
+### Movies
+
+- `GET /api/movies`: Get all movies.
+- `GET /api/movies/top10`: Get top 10 movies.
+- `GET /api/movies/:movie_id`: Get movie by ID.
+- `PUT /api/movies/:movie_id`: Update movie by ID.
+- `DELETE /api/movies/:movie_id`: Delete movie by ID.
+- `POST /api/movies`: Add a new movie.
+- `GET /api/movies/between/:start_year/:end_year`: Get movies released between two years.
 
 
 
