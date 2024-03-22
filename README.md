@@ -49,6 +49,19 @@ Or, to start in development mode:
 
 13.  View the application in your browser at [http://localhost:3000](http://localhost:3000).
 
+API Endpoints
+-------------
+
+List of available API endpoints and their descriptions.
+
+*   `GET /api/endpoint`: Description of what this endpoint does.
+*   `POST /api/endpoint`: Description of what this endpoint does.
+*   `PUT /api/endpoint`: Description of what this endpoint does.
+*   `DELETE /api/endpoint`: Description of what this endpoint does.
+
+
+
+
 Usage
 -----
 
