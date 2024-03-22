@@ -54,6 +54,23 @@ API Endpoints
 
 List of available API endpoints and their descriptions.
 
+### Users
+
+- `GET /api/users`: Home route.
+- `POST /api/users/register`: Register a new user.
+- `POST /api/users/authenticate`: Authenticate a user.
+
+
+### Directors
+
+- `POST /api/directors`: Add a new director.
+- `POST /api/directors/addDirectorToMovie/:movieId/:directorId`: Add a director to a movie.
+- `GET /api/directors`: Get all directors.
+- `GET /api/directors/:director_id`: Get director by ID.
+- `PUT /api/directors/:director_id`: Update director by ID.
+- `DELETE /api/directors/:director_id`: Delete director by ID.
+- `GET /api/directors/:director_id/best10movie`: Get 10 best movies directed by a director.
+
 
 ### Movies
 
